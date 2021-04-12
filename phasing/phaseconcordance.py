@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 
 
 # In the hapcut input file, each line has haplotype information from a single fragment. For each variant covered by the fragment, information about the variant-id and allele is recorded as follows:
@@ -19,3 +19,5 @@
 # Here AAC is the string corresponding to the quality values at the three alleles (encoded using char(QV+33)). The encoding of 0/1 follows the VCF format, 0 is reference and 1 is alternate.
 # 
 # The offset for each variant corresponds to the index of the variant in the VCF file (one-based)
+# For Hi-C reads  there are 3 extra columns following the fragment id, that contain information specific to Hi-C.
+
